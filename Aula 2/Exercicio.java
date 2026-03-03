@@ -10,6 +10,6 @@ public class Exercicio {
             int idade = 18;
             String nome = "Kayky";
             double alturaDouble = 1.80;
-            System.out.println (nome + " "  + "voce tem " + idade + " " + "anos" + " " + "e" + " " + alturaDouble + " " + "de" + " " + "altura");
+            System.out.println (nome + " "  + "voce tem " + idade + " " + "anos e " + alturaDouble + " " + "de altura");
             }
 }
