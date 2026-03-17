@@ -9,10 +9,10 @@ public class VolumeSilio{
         double altura;
         double volumeSilio;
 
-        System.out.println("digite o raio da base (em M)");
+        System.out.println("digite o raio da base (em M):");
         raioBase = scanner.nextDouble();
 
-        System.out.println("digite a altura (em M)");
+        System.out.println("digite a altura (em M): ");
         altura = scanner.nextDouble();
 
         volumeSilio = raioBase * raioBase * Math.PI * altura;
