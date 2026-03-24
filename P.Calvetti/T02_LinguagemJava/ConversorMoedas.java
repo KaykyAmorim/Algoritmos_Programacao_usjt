@@ -18,5 +18,8 @@ public class ConversorMoedas{
         quantidadeDollar = reais * cotacaoDollar;
 
         System.out.println("Quantidade Em dollar disponível: " + quantidadeDollar); 
+
+        Scanner.close();
     }
+    
 }
