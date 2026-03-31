@@ -14,17 +14,14 @@ public class Desafio{
 
         idade = anoAtual - ano;
 
-        if( idade >=18)
-        {System.out.println("Você ja tem idade suficiente para votar e dirigir");
+        if( idade >=18) {
+            System.out.println("Você ja tem idade suficiente para votar e dirigir.");
         }
-        else{
-        System.out.println("Você não tem idade para votar e dirigir.  ");
+        if(idade >=16 && idade < 18){
+            System.out.println("Você tem idade para votar mas não para dirigi.");
         }
-        if(idade >=16 && idade < 18)
-        {System.out.println("Você tem idade para votar mas não para dirigir");
-        }
-        if( idade < 16)
-        {System.out.println("Você não tem idade para votar e dirigir. ");
+        if(idade < 16){
+            System.out.println("Você não tem idade para votar e dirigir!!! ");
         }
     
 
